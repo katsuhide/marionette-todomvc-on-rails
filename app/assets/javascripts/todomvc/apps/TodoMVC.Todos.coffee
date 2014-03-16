@@ -1,4 +1,4 @@
-@TodoMVC.module 'Todos', (Todos, App, Backbone) ->
+TodoMVC.module 'Todos', (Todos, App, Backbone) ->
 
 	# Todo Model
 	class Todos.Todo extends Backbone.Model

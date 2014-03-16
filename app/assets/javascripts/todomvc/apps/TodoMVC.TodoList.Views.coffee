@@ -1,4 +1,4 @@
-@TodoMVC.module 'TodoList.Views', (Views, App, Backbone, Marionette, $) ->
+TodoMVC.module 'TodoList.Views', (Views, App, Backbone, Marionette, $) ->
 	# Todo List Item Views
 	class Views.ItemView extends Marionette.ItemView
 		tagName: 'li'

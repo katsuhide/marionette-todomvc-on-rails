@@ -1,4 +1,4 @@
-@TodoMVC.module 'TodoList', (TodoList, App, Backbone, Marionette, $, _) ->
+TodoMVC.module 'TodoList', (TodoList, App, Backbone, Marionette, $, _) ->
 
   # TodoList Router
   TodoList.Router = Marionette.AppRouter.extend

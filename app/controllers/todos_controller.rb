@@ -3,7 +3,6 @@ class TodosController < ApplicationController
 
 	def index
 		@todos = Todo.all
-		puts @todos.count
 		respond_with @todos
 	end
 

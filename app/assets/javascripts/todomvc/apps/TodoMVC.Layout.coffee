@@ -1,4 +1,4 @@
-@TodoMVC.module 'Layout', (Layout, App, Backbone) ->
+TodoMVC.module 'Layout', (Layout, App, Backbone) ->
 
 	# Layout Header
 	class Layout.Header extends Backbone.Marionette.ItemView
@@ -43,15 +43,7 @@
 
 		templateHelpers :
 			activeCountLabel: ->
-				(if @activeCount is 1 then 'item' else 'items') + 'left'
-
-			hoge: ->
-				console.log "hoge"
-				"aaaaaaaaaaa"
-
-		fuga: ->
-			console.log "fuga"
-			"fuga"
+				(if @activeCount is 1 then 'item' else 'items') + ' left'
 
 		initialize: ->
 			@listenTo App.vent, 'todoList:filter', @updateFilterSelection, @

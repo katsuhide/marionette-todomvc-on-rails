@@ -4,7 +4,6 @@ MarionetteTodomvcOnRails::Application.routes.draw do
   end
 
   get "main/index"
-  get "test/index"
   root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

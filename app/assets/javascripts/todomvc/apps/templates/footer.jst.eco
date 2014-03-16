@@ -1,9 +1,9 @@
 <span id="todo-count">
-	<strong>HOGE<%= @todoList %></strong>
+	<strong><%= @activeCount %></strong><%= @activeCountLabel() %>
 </span>
 <ul id="filters">
 	<li>
-		<a href="#">All</a>
+		<a href="#all">All</a>
 	</li>
 	<li>
 		<a href="#active">Active</a>

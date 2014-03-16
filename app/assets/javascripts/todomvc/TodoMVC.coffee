@@ -1,5 +1,3 @@
-'use strict'
-
 TodoMVC = window.TodoMVC = new Backbone.Marionette.Application()
 
 TodoMVC.addRegions
