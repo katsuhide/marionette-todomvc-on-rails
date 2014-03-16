@@ -6,4 +6,7 @@ TodoMVC.addRegions
 	footer: '#footer'
 
 TodoMVC.on 'initialize:after', ->
-	Backbone.history.start()
+	if !Backbone.History.started
+		Backbone.history.start()
+
+TodoMVC
