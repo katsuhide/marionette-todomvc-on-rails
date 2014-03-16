@@ -1,0 +1,15 @@
+<span id="todo-count">
+	<strong>HOGE<%= @todoList %></strong>
+</span>
+<ul id="filters">
+	<li>
+		<a href="#">All</a>
+	</li>
+	<li>
+		<a href="#active">Active</a>
+	</li>
+	<li>
+		<a href="#completed">Completed</a>
+	</li>
+</ul>
+<button id="clear-completed">Claer completed</button>

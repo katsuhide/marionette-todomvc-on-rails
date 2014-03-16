@@ -1,0 +1,21 @@
+{
+  "name": "marionette-todomvc-on-rails",
+  "version": "0.0.1",
+  "authors": [
+    "katz"
+  ],
+  "description": "test",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "marionette": "~1.6.4",
+    "backbone.localStorage": "~1.1.7"
+  }
+}
